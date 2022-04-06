@@ -11,13 +11,13 @@ function Filter() {
           type="text"
           name="name"
           placeholder="Name…"
-          className="input rounded-l-full rounded-r-none placeholder:text-gray-400"
+          className="input rounded-l-full w-32 rounded-r-none placeholder:text-gray-400"
           onChange={onChange}
         ></input>
         <div className="divider divider-horizontal m-0 w-1" />
 
         <select
-          className="select rounded-none font-normal text-gray-400 max-w-24"
+          className="select rounded-none font-normal text-gray-400 w-24"
           name="type"
           onChange={onChange}
         >
@@ -30,7 +30,7 @@ function Filter() {
         </select>
         <div className="divider divider-horizontal m-0 w-1" />
         <select
-          className="select rounded-r-full rounded-l-none font-normal text-gray-400 max-w-24"
+          className="select rounded-r-full rounded-l-none font-normal text-gray-400 w-24"
           name="rarity"
           onChange={onChange}
         >
@@ -47,4 +47,3 @@ function Filter() {
 }
 
 export default Filter;
-
